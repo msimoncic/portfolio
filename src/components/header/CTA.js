@@ -1,5 +1,5 @@
 import React from "react";
-import CV from '../../img/zivotopis_michal_simoncic.pdf';
+import CV from '../../img/simoncic_michal_cv.pdf';
 
 function CTA() {
     return (

@@ -2,7 +2,6 @@ import React from "react";
 import './Header.css';
 import CTA from './CTA';
 import ME from '../../img/foto.png';
-import logo from '../../img/logom.png';
 import MYSELF from '../../img/coffee.png';
 import HeaderSocials from "./HeaderSocials";
 import {init} from "ityped";

@@ -6,7 +6,6 @@ import work3 from "../../img/dratel.cz_ (2).png";
 import work4 from "../../img/www.tozame.cz_.png";
 import work5 from "../../img/reznictvistloukal.cz_ (2).png";
 
-import { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

@@ -11,7 +11,6 @@ import Skills from "./components/skills/Skills";
 import Work from "./components/work/Work";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import Services from "./components/services/Services";
 
 function App() {
     useEffect(() =>{
