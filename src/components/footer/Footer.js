@@ -12,7 +12,6 @@ function Footer() {
                 <li><a href="#">Domů</a></li>
                 <li><a href="#about">O mně</a></li>
                 <li><a href="#skills">Dovednosti</a></li>
-                <li><a href="#services">Nabízené služby</a></li>
                 <li><a href="#work">Projekty</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>

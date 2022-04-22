@@ -50,7 +50,7 @@ function Work() {
                         <p className={"work__text"}>E-shop na míru vytvořený pomocí Nette frameworku podle návrhu</p>
                         <div className={"work__box__img pointer relative"}>
                             <div className={"work__img__box"}>
-                                <a href={"https://www.labona.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work1} className={"work__img"}></img></a>
+                                <a href={"https://www.labona.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work1} className={"work__img"} alt={"labona"}></img></a>
                             </div>
                         </div>
                         <div className={"work__meta absolute"}>
@@ -65,7 +65,7 @@ function Work() {
                         <p className={"work__text"}>E-shop na míru vytvořený pomocí Nette frameworku</p>
                         <div className={"work__box__img pointer relative"}>
                             <div className={"work__img__box"}>
-                                <a href={"https://www.provanoce.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work2} className={"work__img"}></img></a>
+                                <a href={"https://www.provanoce.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work2} className={"work__img"} alt={"provanoce"}></img></a>
                             </div>
                         </div>
                         <div className={"work__meta absolute"}>
@@ -80,7 +80,7 @@ function Work() {
                         <p className={"work__text"}>Wordpress stránky vytvořeny pomocí Elementoru podle návrhu</p>
                         <div className={"work__box__img pointer relative"}>
                             <div className={"work__img__box"}>
-                                <a href={"https://www.dratel.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work3} className={"work__img"}></img></a>
+                                <a href={"https://www.dratel.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work3} className={"work__img"} alt={"dratel"}></img></a>
                             </div>
                         </div>
                         <div className={"work__meta absolute"}>
@@ -95,7 +95,7 @@ function Work() {
                         <p className={"work__text"}>Shoptet e-shop, na kterém dělám úpravy dle přání klienta</p>
                         <div className={"work__box__img pointer relative"}>
                             <div className={"work__img__box"}>
-                                <a href={"https://www.tozame.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work4} className={"work__img"}></img></a>
+                                <a href={"https://www.tozame.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work4} className={"work__img"} alt={"tozame"}></img></a>
                             </div>
                         </div>
                         <div className={"work__meta absolute"}>
@@ -110,7 +110,7 @@ function Work() {
                         <p className={"work__text"}>Stránky vytvořeny pomocí klasického html/css/js</p>
                         <div className={"work__box__img pointer relative"}>
                             <div className={"work__img__box"}>
-                                <a href={"https://www.reznictvistloukal.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work5} className={"work__img"}></img></a>
+                                <a href={"https://www.reznictvistloukal.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work5} className={"work__img"} alt={"reznictvi"}></img></a>
                             </div>
                         </div>
                         <div className={"work__meta absolute"}>

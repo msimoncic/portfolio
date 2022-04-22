@@ -4,9 +4,11 @@
 }
 .work__box {
     text-align: center;
+    width: 100%;
 }
 img.work__box__img {
     text-align: center;
+    width: 100%;
 }
 img.work__img {
     border-radius: 5px;
@@ -62,6 +64,9 @@ a.work__btn {
 }
 .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--swiper-theme-color);
+}
+.swiper-wrapper .swiper-slide {
+    width: 60%;
 }
 /* RESPONSIVE FOR TABLETS */
 @media screen and (max-width: 1024px) {
