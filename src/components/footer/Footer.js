@@ -18,9 +18,9 @@ function Footer() {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://www.facebook.com/michal.simoncic.1/" target="_blank"><BsFacebook /></a>
-                <a href="https://twitter.com/MichalSimoncic" target="_blank"><BsTwitter /></a>
-                <a href="https://www.instagram.com/michal_simoncic15/" target="_blank"><BsInstagram /></a>
+                <a href="https://www.facebook.com/michal.simoncic.1/" target="_blank" rel={"noreferrer"}><BsFacebook /></a>
+                <a href="https://twitter.com/MichalSimoncic" target="_blank" rel={"noreferrer"}><BsTwitter /></a>
+                <a href="https://www.instagram.com/michal_simoncic15/" target="_blank" rel={"noreferrer"}><BsInstagram /></a>
             </div>
 
             <div className="footer__copyright">

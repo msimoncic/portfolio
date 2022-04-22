@@ -28,25 +28,25 @@ function Contact() {
                         <MdOutlineEmail className="contact__option-icon"/>
                         <h4>Email</h4>
                         <h5>michal.simoncic15@gmail.com</h5>
-                        <a href="mailto:michal.simoncic15@gmail.com" target="_blank">Poslat mail</a>
+                        <a href="mailto:michal.simoncic15@gmail.com" target="_blank" rel={"noreferrer"}>Poslat mail</a>
                     </article>
                     <article className="contact__option">
                         <BsMessenger className="contact__option-icon"/>
                         <h4>Messenger</h4>
                         <h5>Michal Šimončič</h5>
-                        <a href="https://m.me/michal.simoncic.1/" target="_blank">Poslat zprávu</a>
+                        <a href="https://m.me/michal.simoncic.1/" target="_blank" rel={"noreferrer"}>Poslat zprávu</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className="contact__option-icon"/>
                         <h4>WhatsApp</h4>
                         <h5>+420 702 052 097</h5>
-                        <a href="https://web.whatsapp.com/send?phone=+420702052097" target="_blank">Poslat zprávu</a>
+                        <a href="https://web.whatsapp.com/send?phone=+420702052097" target="_blank" rel={"noreferrer"}>Poslat zprávu</a>
                     </article>
                     <article className="contact__option">
                         <SiViber className="contact__option-icon"/>
                         <h4>Viber</h4>
                         <h5>+420 702 052 097</h5>
-                        <a href="viber://chat?number=+420702052097" target="_blank">Poslat zprávu</a>
+                        <a href="viber://chat?number=+420702052097" target="_blank" rel={"noreferrer"}>Poslat zprávu</a>
                     </article>
                 </div>
 
