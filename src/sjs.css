@@ -1,0 +1,973 @@
+html {
+    scroll-behavior: smooth;
+}
+.content .discount-coupon .btn::before {
+    position: relative;
+    width: unset;
+}
+span.load-products {
+    position: relative;
+}
+.content #cart-wrapper .btn::after {
+    position: relative;
+    width: unset;
+    height: unset;
+}
+.content #checkoutSidebar .btn::after {
+    position: relative;
+    width: unset;
+    height: unset;
+}
+.pagination-loader span.load-products.btn::before {
+    content: '';
+    background: rgba(227,158,26,1);
+    width: 120%;
+    left: -128%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+span.load-products.btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+span.load-products.btn::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+span.load-products.btn span{
+    position: relative;
+}
+span.load-products.btn:hover::before {
+    transform: translate3d(100%,0,0);
+}
+/*.btn.btn-conversion, a.btn.btn-conversion, .btn.btn-cart, a.btn.btn-cart {
+	position: relative;
+}
+.cart-widget-button a.btn::before {
+    content: '';
+    background: rgba(227,158,26,1);
+    width: 120%;
+    left: -128%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.cart-widget-button .btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cart-widget-button .btn::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cart-widget-button a.btn span{
+    position: relative;
+}
+.cart-widget-button a.btn:hover::before {
+    transform: translate3d(100%,0,0);
+}*/
+.category-top .subcategories.with-image li a .image img {
+    max-height: 100%;
+}
+.benefitBanner__picture {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.btn {
+    overflow: hidden;
+}
+.content .btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content .btn::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.content .add-to-cart-button::before {
+    content: '';
+    background: rgba(227,158,26,1);
+    width: 120%;
+    left: -128%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+    z-index: -1;
+}
+.content .add-to-cart-button:hover::before {
+    transform: translate3d(100%,0,0);
+}
+.content .btn.btn-conversion {
+    position: relative;
+}
+.down-menu {
+    width: 100%;
+}
+.down-menu-level-1 {
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    border-width: 0;
+}
+.down-menu-item a{
+    background-color: #fff;
+    border: 0;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 0 25px rgb(0 0 0 / 9%);
+    height: auto;
+    text-align: center;
+}
+.down-menu-level-1 li{
+    padding: 10px;
+    width: calc(100% / 4 - 20px);
+    flex-basis: calc(100% / 4 - 20px);
+}
+.down-menu-item a span{
+    align-content: center;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 700;
+    max-height: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    max-width: 100%;
+}
+.down-menu .down-menu-level-1 .down-menu-item::before {
+    display: none;
+}
+.down-menu-item a:hover span{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+}
+#header .header-top .header-top-wrapper {
+    align-items: end;
+}
+.btn.btn-conversion, a.btn.btn-conversion, .btn.btn-cart, a.btn.btn-cart {
+    background: rgb(159,109,15);
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+    border: unset;
+}
+.btn.btn-conversion:hover, a.btn.btn-conversion:hover, .btn.btn-cart:hover, a.btn.btn-cart:hover {
+    background: rgb(159,109,15);
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+    border-color: transparent;
+}
+.quantity .decrease:hover:before, .quantity .increase:hover:before {
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+}
+.btn.btn-default, a.btn.btn-default {
+    border: unset;
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+}
+.btn.btn-default:hover, a.btn.btn-default:hover {
+    background: rgb(159,109,15);
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+    border-color: transparent;
+}
+.discount-coupon .btn.btn-default {
+    padding: 11px 26px;
+}
+ol.cart-header li.active a::before, ol.cart-header li.active strong::before {
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+    border: unset;
+}
+.show-tooltip.acronym {
+    color: #60C11A;
+}
+.p-to-cart-block .p-final-price-wrapper .price-final-holder {
+    color: #60C11A;
+}
+.stars .star.star-on::before, .stars .star.star-half::before {
+    color: gold;
+}
+.stars .star.is-active:hover {
+    color: gold;
+}
+.required-asterisk:after {
+    color: #EC1030;
+}
+.container .top-navigation-tools a {
+    padding: 4px 0px 4px 40px;
+}
+.navigation-in {
+    font-size: 17px;
+    line-height: 17px;
+}
+.top-navigation-menu {
+    padding-right: unset;
+}
+.top-navigation-bar .container {
+    padding: 0;
+}
+.top-navigation-bar .container .top-navigation-menu {
+    flex: 1 1;
+    position: relative;
+}
+.top-navigation-menu-item-external-15 {
+    position: absolute;
+    left: 43%;
+}
+.top-navigation-bar .container>div {
+    flex: unset;
+}
+.products-block > div .p .p-bottom > div .p-tools .btn, .products-block > div .p .p-bottom > div .p-tools .btn.btn-cart {
+    border-bottom-style: unset;
+}
+ol.cart-header li.completed a::before, ol.cart-header li.completed strong::before {
+    background: linear-gradient(35deg, rgba(159,109,15,1) 0%, rgba(254,221,189,1) 50%, rgba(227,158,26,1) 100%);
+    border: unset;
+}
+ol.cart-header li.completed a span::after, ol.cart-header li.completed strong span::after {
+    border-top-color: rgba(227,158,26,1);
+}
+.availability-label {
+    color: #60C11A;
+}
+.show-tooltip.acronym {
+    color: #60C11A;
+}
+.p-to-cart-block .p-final-price-wrapper .price-final-holder {
+    color: #60C11A;
+}
+.stars .star.star-on::before, .stars .star.star-half::before {
+    color: rgba(227,158,26,1);
+}
+.stars .star.is-active:hover {
+    color: rgba(227,158,26,1);
+}
+.required-asterisk:after {
+    color: #EC1030;
+}
+#header .search-input::placeholder {
+    color: #aaaaaa;
+}
+#header .search-form:hover .search-input::placeholder {
+    color: #aaaaaa;
+}
+#header .search-input:focus::placeholder, .search-focused #header .search-input::placeholder, .search-window-visible #header .search-input::placeholder {
+    color: #aaaaaa;
+}
+.top-navigation-bar .top-navigation-menu-item-39 {
+    display: none;
+}
+.top-navigation-bar .top-navigation-menu-item-691 {
+    display: none;
+}
+.footer-rows .custom-footer__articles ul > li:nth-child(1) {
+    display: none;
+}
+.footer-rows .custom-footer__articles ul > li:nth-child(2) {
+    display: none;
+}
+.footer-rows .custom-footer__articles ul > li:nth-child(3) {
+    display: none;
+}
+.footer-rows .custom-footer__articles ul  > li:nth-child(4) {
+    display: none;
+}
+.social-icon-list a.social-icon {
+    border-color: #EC1030;
+    background-color: #EC1030;
+    color: #fff;
+}
+.social-icon-list a.social-icon:hover {
+    border-color: #EC1030;
+    background-color: #EC1030;
+    color: #fff;
+}
+.cart-inner .next-step .next-step-back {
+    color: #1A1937;
+}
+.products-block .p-bottom > div .p-tools form {
+    display: inline-flex;
+}
+.products-block > div .p .p-bottom > div .p-tools .pr-action {
+    width: unset;
+}
+.category-top .subcategories.with-image li {
+    padding: 10px;
+    width: 16.666666666%;
+}
+.category-top .subcategories li a {
+    background-color: #fff;
+    border: 0;
+    padding: 0;
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 0 25px rgb(0 0 0 / 9%);
+    height: auto;
+    max-height: 155px;
+    text-align: center;
+}
+.category-top .subcategories.with-image li a .text {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 700;
+    max-height: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    max-width: 100%;
+}
+.category-top .subcategories.with-image li a .image {
+    width: 0;
+    padding-right: 0;
+}
+.products-block .product .availability span[style="color:#009901"] {
+    color: #60C11A !important;
+}
+.products-block .product .availability span[style="color:#cb0000"] {
+    color: #EC1030 !important;
+}
+.products-top .product .p-in .ratings-wrapper .availability span[style="color:#009901"] {
+    color: #60C11A !important;
+}
+.products-top .product .p-in .ratings-wrapper .availability span[style="color:#cb0000"] {
+    color: #EC1030 !important;
+}
+.nav-center {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.text-center {
+    text-align: center;
+}
+.nav-center a.btn.btn-default {
+    display: inline;
+    width: auto;
+}
+.nav-center a.btn.btn-default {
+    padding: 10px 26px;
+}
+#content {
+    line-height: 1.4;
+}
+.benefitBanner__img {
+    width: 75%;
+}
+.benefitBanner__item .benefitBanner__link .benefitBanner__data {
+    color: #1a1937;
+}
+.product-slider-holder .product-slider {
+    padding: 25px 0;
+}
+.product-slider-holder.has-navigation {
+    border: 1px solid #cfcfcf;
+    border-top: none;
+}
+.homepage-group-title {
+    margin-bottom: 0;
+}
+.homepage-group-title {
+    position: relative;
+}
+.homepage-group-title::before {
+    content: '';
+    border: 1px solid #cfcfcf;
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    left: 0;
+    top: 50%;
+    border-bottom: 0;
+    border-right: 0;
+    z-index: 0;
+}
+.homepage-group-title::after {
+    content: '';
+    border: 1px solid #cfcfcf;
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    right: 0;
+    top: 50%;
+    border-bottom: 0;
+    border-left: 0;
+    z-index: 0;
+}
+.homepage-group-title #text {
+    background: #fff;
+}
+.product-slider .product-slider-navigation {
+    opacity: 1;
+}
+.product-slider .product-slider-navigation::before {
+    font-size: 40px;
+    color: #EC1030;
+}
+.p-data-wrapper .hledejceny-buttons-wrapper .benefitBanner__item {
+    display: block;
+    width: 100%;
+}
+.position--benefitProduct {
+    display: none;
+}
+.hledejceny-buttons-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-rows .custom-footer__articles ul > li:nth-child(5) {
+    display: none;
+}
+.top-navigation-menu-item-external-15 {
+    left: 47%;
+}
+.tel-number {
+    color: #EC1030;
+}
+.top-navigation-menu-item-external-15 a:nth-child(1) {
+    display: none;
+}
+.navigationActions li:nth-child(1) {
+    display: none;
+}
+.btn, a.btn, .btn.btn-conversion, a.btn.btn-conversion {
+    font-weight: 700;
+}
+.products-block > div .p .p-bottom > div .p-tools .btn, .products-block > div .p .p-bottom > div .p-tools .btn.btn-cart {
+    font-weight: 700;
+}
+.ordering-process .btn.btn-conversion, .ordering-process a.btn.btn-conversion {
+    font-weight: 700;
+}
+.benefitBanner__item:nth-child(1) {
+    display: none;
+}
+.benefitBanner__item:nth-child(2) {
+    display: none;
+}
+.benefitBanner__item:nth-child(3) {
+    display: none;
+}
+.next-step .next-step-forward span {
+    position: relative;
+}
+.next-step .next-step-forward::before {
+    content: '';
+    background: rgba(227,158,26,1);
+    width: 120%;
+    left: -128%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.next-step .next-step-forward:hover::before {
+    transform: translate3d(100%,0,0);
+}
+.next-step .next-step-finish span {
+    position: relative;
+}
+.next-step .next-step-finish::before {
+    content: '';
+    background: rgba(227,158,26,1);
+    width: 120%;
+    left: -128%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.next-step .next-step-finish:hover::before {
+    transform: translate3d(100%,0,0);
+}
+a.btn {
+    transition: 0.3s;
+}
+.cart-widget-bottom .cart-widget-button a.btn:hover {
+    background: #e39e1a;
+}
+.extras-wrap .extra.step a.btn:hover {
+    background: #e39e1a;
+}
+@media (min-width: 769px) {
+    .content-wrapper #content {
+        padding-top: 0;
+    }
+    .nav-center {
+        margin: 44px 0 22px 0;
+    }
+    body.ordering-process #header .header-bottom .container {
+        display: none;
+    }
+    .header-bottom #navigation .navigation-in>ul>li {
+        background-size: 22%;
+        background-position: left;
+    }
+    .navigation-in>ul>li>a:hover {
+        padding-left: 31px !important;
+    }
+    .navigation-in>ul>li:first-child>a:hover {
+        padding-left: 30px !important;
+    }
+    .header-bottom #navigation .navigation-in>ul>li.ext.exp>a {
+        padding-left: 31px;
+    }
+    .navigation-in>ul>li:first-child {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/talire_red.svg') no-repeat;
+    }
+    .navigation-in>ul>.menu-item-707 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/misky_red.svg') no-repeat;
+    }
+    .navigation-in>ul>.menu-item-714 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/hrnky_red.svg') no-repeat;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-717 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/konvice_na_caj_red.svg') no-repeat;
+        background-size: 15%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-720 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/sady_nadobi_red.svg') no-repeat;
+        background-size: 14%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-723 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/pribory_red.svg') no-repeat;
+        background-size: 20%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-726 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/darkova_baleni_red.svg') no-repeat;
+        background-size: 13%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-786 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/tozame_red.svg') no-repeat;
+        background-size: 20%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-816 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/sushi_red.svg') no-repeat;
+        background-size: 17%;
+        background-position: left;
+    }
+    #navigation .navigation-in ul li>a>b {
+        padding-right: 5px;
+    }
+    #header .site-name a img {
+        max-height: 40px;
+    }
+    .banners-row .col-sm-8, .banners-row .col-sm-4 {
+        width: 50%;
+    }
+    .banners-row > .col-sm-4 > .next-to-carousel-banners > div:nth-child(1) {
+        width: 48.62%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .banners-row > .col-sm-4 > .next-to-carousel-banners > div:nth-child(2) {
+        width: 48.62%;
+        float: right;
+        margin-top: 0;
+        margin-bottom: 13px;
+    }
+    .banners-row > .col-sm-4 > .next-to-carousel-banners > div:nth-child(3) {
+        clear: left;
+        width: 48.62%;
+        float: left;
+        margin-top: 0;
+    }
+    .banners-row > .col-sm-4 > .next-to-carousel-banners > div:nth-child(4) {
+        width: 48.62%;
+        float: right;
+        margin-top: 0;
+    }
+    .content .banners-row .col-sm-4 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 20px;
+    }
+    .content .footer-banners {
+        margin-top: 20px;
+        text-align: center;
+    }
+    #navigation .menu-level-1 > li > a .submenu-arrow, #navigation .navigationActions > li > a .submenu-arrow {
+        font-size: 10px;
+        display: contents;
+    }
+    .btn.btn-conversion:hover, a.btn.btn-conversion:hover, .btn.btn-cart:hover, a.btn.btn-cart:hover {
+        color: #000000;
+    }
+    .products-block > div .p .p-bottom > div .p-tools .btn, .products-block > div .p .p-bottom > div .p-tools .btn.btn-cart {
+        border-bottom-style: none;
+    }
+    .btn, a.btn {
+        border: unset;
+    }
+    #header .header-bottom {
+        height: 55px;
+    }
+    #navigation .navigation-in>ul>li>a {
+        padding-left: 30px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+    #navigation .menu-level-2>li {
+        background-color: #fff;
+        margin: 15px 10px 0 10px;
+        border: 0;
+        border-radius: 6px;
+        background-color: #fff;
+        padding-left: 6px;
+        box-shadow: 0 0 25px rgb(0 0 0 / 9%);
+        min-height: 151px;
+        position: relative;
+        padding: 0;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 6 - 20px);
+        flex-basis: calc(100% / 6 - 20px);
+    }
+    #navigation .menu-level-2>li>div>a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 0px 10px;
+        line-height: 1.3;
+        height: 40px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .navigation-in>ul>li.ext>ul>li>a {
+        padding: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigation-in > ul > li.ext > ul > li > a img {
+        max-height: 114px;
+        max-width: 100%;
+    }
+    .navigation-in>ul>li.ext>ul>li>div {
+        width: calc(100%);
+    }
+    .content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .desktop .banners-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .content .p-detail {
+        margin-left: 0;
+    }
+    .navigation-in > ul > li.ext > ul > li > a img {
+        max-height: 100%
+    }
+    #navigation {
+        height: 55px;
+    }
+    .desktop .banners-row {
+        margin-top: 0px;
+    }
+    .content .p-detail {
+        margin-left: -20px;
+    }
+}
+@media (min-width: 992px){
+    .container-narrow {
+        width: 700px;
+        margin: 0;
+    }
+    .wide .p-detail-inner .p-image-wrapper {
+        width: 50%;
+        padding-right: 40px;
+        margin-top: -30px;
+    }
+    .shp-tabs-wrapper .tab-content .tab-pane.wide-tab {
+        width: 700px;
+        margin: 0;
+    }
+    .shp-tabs-wrapper .tab-content .tab-pane {
+        width: 700px;
+        margin: 0;
+    }
+    .shp-tabs-wrapper .col-sm-12 .tab-content {
+        width: 1315px;
+        margin: 0;
+        background-image: url(https://www.tozame.cz/user/documents/upload/gallery/clanek_prava_strana_vizual_tozame.svg);
+        background-position: right;
+        background-repeat: repeat-y;
+        background-size: 40%;
+    }
+    .shp-tabs-holder ul.shp-tabs {
+        margin: 0;
+    }
+    .shp-tabs-holder ul.shp-tabs a.shp-tab-link {
+        padding-left: 0;
+    }
+}
+@media (min-width: 1192px) {
+    .container-narrow {
+        width: 1315px;
+        margin: 0;
+        background-image: url('https://www.tozame.cz/user/documents/upload/gallery/clanek_prava_strana_vizual_tozame.svg');
+        background-position: right;
+        background-repeat: repeat-y;
+        background-size: 40%;
+    }
+    .container-narrow .content.wide {
+        max-width: 700px;
+    }
+}
+@media (max-width: 1439.5px) {
+    .top-navigation-menu-item-external-15 {
+        left: 56%;
+    }
+}
+@media (max-width: 1199px) {
+    ul.subcategories li {
+        width: 25%;
+    }
+}
+@media (max-width: 1191px) {
+    .category-top .subcategories.with-image li {
+        width: 25%;
+    }
+    .top-navigation-menu-item-external-15 {
+        left: 70%;
+    }
+}
+@media (max-width: 1024px) {
+    .homepage-group-title::before {
+        width: 23%;
+    }
+    .homepage-group-title::after {
+        width: 23%;
+    }
+}
+@media (max-width: 991px) {
+    ul.subcategories li {
+        width: 33.33333%;
+    }
+    .subcategories li a {
+        padding: 0 13px 0 13px;
+    }
+    .category-top .subcategories.with-image li {
+        width: 33.333333%;
+    }
+    .down-menu-level-1 li {
+        width: calc(100% / 3 - 20px);
+        flex-basis: calc(100% / 3 - 20px);
+    }
+}
+@media (max-width: 767px) {
+    #header .site-name {
+        padding: 11px;
+        min-width: 46%;
+    }
+    #navigation .menu-level-1 > li > a, #navigation .navigationActions>li>a {
+        padding-left: 50px;
+    }
+    .navigation-in>ul>li.menu-item-710 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/talire_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .navigation-in>ul>li.menu-item-710.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/talire_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 5.5%;
+    }
+    .navigation-in>ul>.menu-item-707 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/misky_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .navigation-in>ul>.menu-item-707.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/misky_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 4.5%;
+    }
+    .navigation-in>ul>.menu-item-714 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/hrnky_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .navigation-in>ul>.menu-item-714.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/hrnky_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 5.5%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-717 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/konvice_na_caj_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-720 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/sady_nadobi_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-720.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/sady_nadobi_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 3%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-723 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/pribory_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-723.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/pribory_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 8%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-726 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/darkova_baleni_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: left;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-786 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/tozame_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-786.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/tozame_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 2%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-816 {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/sushi_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1%;
+    }
+    .header-bottom #navigation .navigation-in>ul>.menu-item-816.exp {
+        background: url('https://www.tozame.cz/user/documents/upload/Menu icons/sushi_red.svg') no-repeat;
+        background-size: 10%;
+        background-position: 1% 2%;
+    }
+    .homepage-group-title::before {
+        width: 15%;
+    }
+    .homepage-group-title::after {
+        width: 15%;
+    }
+    .nav-center {
+        margin: 10px 0 20px 0;
+    }
+    .product-slider .product-slider-navigation::before {
+        background-color: transparent;
+    }
+    .product-slider .product-slider-navigation:hover::before {
+        background-color: transparent;
+    }
+    .next-to-carousel-banners {
+        display: flex;
+        padding-left: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-width: 0;
+    }
+    .banners-row .banner-wrapper {
+        width: calc(100% / 2);
+        flex-basis: calc(100% / 2);
+    }
+}
+@media (max-width: 591px) {
+    ul.subcategories li {
+        width: 50%;
+        max-width: 207px;
+    }
+    .category-top .subcategories.with-image li {
+        width: 50%;
+        max-width: 207px;
+    }
+    .down-menu-level-1 li {
+        width: calc(100% / 2 - 20px);
+        flex-basis: calc(100% / 2 - 20px);
+    }
+}
+@media (max-width: 426px) {
+    .homepage-group-title::before {
+        width: 7%;
+    }
+    .homepage-group-title::after {
+        width: 7%;
+    }
+}
+@media (max-width: 386px) {
+    .category-top .subcategories.with-image li {
+        width: 50%;
+        max-width: 207px;
+    }
+    .down-menu-level-1 li {
+        width: calc(100% / 2 - 20px);
+        flex-basis: calc(100% / 2 - 20px);
+    }
+}
+@media (max-width: 376px) {
+    .homepage-group-title::before {
+        width: 2%;
+    }
+    .homepage-group-title::after {
+        width: 2%;
+    }
+}
+.content .btn.btn-conversion {
+    z-index: 1;
+}
+.next-step .next-step-finish::before {
+    z-index: -1;
+}
+.next-step .next-step-forward::before {
+    z-index: -1;
+}
+.cart-widget-button .btn {
+    position: relative;
+    z-index: 1;
+}
+.cart-widget-button .btn::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.cart-widget-bottom .cart-widget-button .btn::before {
+    content: '';
+    background: rgba(227,158,26,1);
+    width: 120%;
+    left: -128%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+    z-index: -1;
+}
+.cart-widget-bottom .cart-widget-button .btn:hover::before {
+    transform: translate3d(100%,0,0);
+}
