@@ -17,7 +17,7 @@ function Header() {
             showCursor: false,
             backDelay:1500,
             backSpeed:60,
-            strings:["Front-end kóder","Fotbalista","Student"]
+            strings:["Front-end kodér","Fotbalista","Student"]
         })
     }, [])
 
