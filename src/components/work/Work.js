@@ -5,6 +5,7 @@ import work2 from "../../img/www.provanoce.cz_.png";
 import work3 from "../../img/dratel.cz_ (2).png";
 import work4 from "../../img/www.tozame.cz_.png";
 import work5 from "../../img/reznictvistloukal.cz_ (2).png";
+import work6 from "../../img/pneuservis.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -115,6 +116,21 @@ function Work() {
                         </div>
                         <div className={"work__meta absolute"}>
                             <a href={"https://www.reznictvistloukal.cz/"} className={"work__btn"} target={"_blank"} rel={"noreferrer"}>Navštívit web</a>
+                        </div>
+                    </div>
+                </SwiperSlide>
+
+                <SwiperSlide className="work">
+                    <div className={"work__box pointer relative"}>
+                        <h2 className={"work__text"}>Pneuservisbabice.cz</h2>
+                        <p className={"work__text"}>Stránky vytvořeny pomocí klasického html/css/js</p>
+                        <div className={"work__box__img pointer relative"}>
+                            <div className={"work__img__box"}>
+                                <a href={"https://www.pneuservisbabice.cz/"} target={"_blank"} rel={"noreferrer"}><img src={work6} className={"work__img"} alt={"pneuservis"}></img></a>
+                            </div>
+                        </div>
+                        <div className={"work__meta absolute"}>
+                            <a href={"https://www.pneuservisbabice.cz/"} className={"work__btn"} target={"_blank"} rel={"noreferrer"}>Navštívit web</a>
                         </div>
                     </div>
                 </SwiperSlide>
