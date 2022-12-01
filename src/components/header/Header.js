@@ -17,7 +17,7 @@ function Header() {
             showCursor: false,
             backDelay:1500,
             backSpeed:60,
-            strings:["Front-end kodér","Fotbalista","Student"]
+            strings:["Front-end developer","Football player","Student"]
         })
     }, [])
 
@@ -36,7 +36,7 @@ function Header() {
                     <img src={MYSELF} alt="myself"/>
                 </div>
 
-                <a href="#contact" className="scroll__down">Scroll down</a>
+                <a href="#about" className="scroll__down">Scroll down</a>
             </div>
         </header>
     )

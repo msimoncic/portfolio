@@ -9,11 +9,11 @@ function Footer() {
             <a href="#" className="footer__logo">MICHAL</a>
 
             <ul className="permalinks">
-                <li><a href="#">Domů</a></li>
-                <li><a href="#about">O mně</a></li>
-                <li><a href="#skills">Dovednosti</a></li>
-                <li><a href="#work">Projekty</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
 
             <div className="footer__socials">
@@ -23,7 +23,7 @@ function Footer() {
             </div>
 
             <div className="footer__copyright">
-                <small>&copy; 2022 Michal Šimončič. Všechna práva vyhrazena.</small>
+                <small>&copy; 2022 Michal Šimončič. All rights reserved.</small>
             </div>
         </footer>
     )

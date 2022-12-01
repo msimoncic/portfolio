@@ -19,8 +19,8 @@ function Contact() {
 
     return (
         <section id="contact">
-            <h5>Spojte se se mnou</h5>
-            <h2>Kontaktujte mě</h2>
+            <h5>Be in touch</h5>
+            <h2>Contact me</h2>
 
             <div className="container contact__container">
                 <div className="contact__options">
@@ -28,34 +28,34 @@ function Contact() {
                         <MdOutlineEmail className="contact__option-icon"/>
                         <h4>Email</h4>
                         <h5>michal.simoncic15@gmail.com</h5>
-                        <a href="mailto:michal.simoncic15@gmail.com" target="_blank" rel={"noreferrer"}>Poslat mail</a>
+                        <a href="mailto:michal.simoncic15@gmail.com" target="_blank" rel={"noreferrer"}>Send mail</a>
                     </article>
                     <article className="contact__option">
                         <BsMessenger className="contact__option-icon"/>
                         <h4>Messenger</h4>
                         <h5>Michal Šimončič</h5>
-                        <a href="https://m.me/michal.simoncic.1/" target="_blank" rel={"noreferrer"}>Poslat zprávu</a>
+                        <a href="https://m.me/michal.simoncic.1/" target="_blank" rel={"noreferrer"}>Send a message</a>
                     </article>
                     <article className="contact__option">
                         <BsWhatsapp className="contact__option-icon"/>
                         <h4>WhatsApp</h4>
                         <h5>+420 702 052 097</h5>
-                        <a href="https://web.whatsapp.com/send?phone=+420702052097" target="_blank" rel={"noreferrer"}>Poslat zprávu</a>
+                        <a href="https://web.whatsapp.com/send?phone=+420702052097" target="_blank" rel={"noreferrer"}>Send a message</a>
                     </article>
                     <article className="contact__option">
                         <SiViber className="contact__option-icon"/>
                         <h4>Viber</h4>
                         <h5>+420 702 052 097</h5>
-                        <a href="viber://chat?number=+420702052097" target="_blank" rel={"noreferrer"}>Poslat zprávu</a>
+                        <a href="viber://chat?number=+420702052097" target="_blank" rel={"noreferrer"}>Send a message</a>
                     </article>
                 </div>
 
                 {/*END OF CONTACT OPTION*/}
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="name" placeholder='Vaše jméno a příjmení' required />
-                    <input type="email" name="email" placeholder='Váš email' required />
-                    <textarea name="message" rows="7" placeholder="Vaše zpráva" required />
-                    <button type="submit" className="btn btn-primary">Poslat zprávu</button>
+                    <input type="text" name="name" placeholder='Your fullname' required />
+                    <input type="email" name="email" placeholder='Your email' required />
+                    <textarea name="message" rows="7" placeholder="Your message" required />
+                    <button type="submit" className="btn btn-primary">Send a message</button>
                 </form>
 
             </div>
